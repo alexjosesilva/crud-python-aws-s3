@@ -1,12 +1,13 @@
 import boto3
 from configure import *
-bucket_name = "bucketuse2023"
+
 class GetFile(object):
     
     def __init__(self) -> None:
         pass
     
     def get_file(self):
+        bucket_name = "bucketuse2023"
         try:
             s3 = boto3.resource('s3',
                 aws_access_key_id=AWS_ACCESS_KEY_ID,

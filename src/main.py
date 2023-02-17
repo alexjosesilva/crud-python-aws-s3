@@ -10,9 +10,11 @@ def main():
     upload = UploadFile()
     upload.upload_file()
     
-    #Read files in bucket
-    #delete file or files in bucket
+    print("Read file")
+    readfile = ""
     
-
+    #delete file or files in bucket
+    print("Delet file")
+    deletfile = ""
 if __name__ == "__main__":
     main()

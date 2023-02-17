@@ -1,15 +1,15 @@
-import boto
-import boto.s3
-import sys
-from boto.s3.key import Key
+import boto3
 
-#user bucketuser
+
 AWS_ACCESS_KEY_ID = 'AKIA4BSTJ23SAS2G2JPR'
 AWS_SECRET_ACCESS_KEY = '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'
-
-#bucket_name = AWS_ACCESS_KEY_ID.lower() + '-dump'
 bucket_name = "bucketuse2023"
-conn = boto.connect_s3(AWS_ACCESS_KEY_ID,AWS_SECRET_ACCESS_KEY)
 
-bucket = conn.get_bucket(bucket_name,)
-print(bucket)
+try:
+    s3 = boto3.resource('s3',
+        aws_access_key_id=AWS_ACCESS_KEY_ID,
+        aws_secret_access_key=AWS_SECRET_ACCESS_KEY
+    )
+    s3.Bucket(bucket_name).download_file('input/s2.csv', 'tmp/s2.csv')
+except Exception as err:
+    print("An exception occurred: upload: ", err)

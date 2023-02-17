@@ -1,0 +1,3 @@
+bucket_name = "bucketuse2023"
+AWS_ACCESS_KEY_ID = 'AKIA4BSTJ23SAS2G2JPR'
+AWS_SECRET_ACCESS_KEY = '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'

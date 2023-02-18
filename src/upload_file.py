@@ -8,8 +8,8 @@ class UploadFile(object):
     def upload_file(self):
     
         bucket_name = "bucketuse2023"
-        file_name = "input/business-financial-data-september-2022-quarter.csv"
-        object_name = 'input/business-financial-data-september-2022-quarter.csv'
+        file_name = "input/s2.csv"
+        object_name = 'input/s2.csv'
         
         try:
             s3 = boto3.resource('s3',

@@ -6,7 +6,7 @@ class ReadFilesInBucket(object):
     
     def __init__(self) -> None:
         pass
-    
+    #buscar todos os arquivos
     def list_all_files_in_bucket(self):
         bucket_name = "bucketuse2023"
         try:
@@ -22,7 +22,7 @@ class ReadFilesInBucket(object):
         except Exception as err:
             print("An exception occurred: read name files in bucket in aws s3: ", err)
         
-
+    #buscar na pasta 
     def list_filtre_files_in_bucket(self, filtre):
         bucket_name = "bucketuse2023"
         try:
@@ -38,7 +38,7 @@ class ReadFilesInBucket(object):
         except Exception as err:
             print("An exception occurred: read name files in bucket in aws s3: ", err)  
     
-        
+    #buscar    
     def list_types_files_in_bucket(self, type_files):
         bucket_name = "bucketuse2023"
         try:

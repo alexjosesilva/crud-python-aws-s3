@@ -1,7 +1,7 @@
-# "crud-python-aws-s3" 
+# "app-python-aws-s3" 
 
 O processo de inserção de arquivos, download, listagem, renomear ou deletar esta descrito no repositorio
-procedimentos basicos e de facil configuração AWS/S3
+procedimentos básicos e de fácil configuração AWS/S3
 
 ## requerimentos:
 

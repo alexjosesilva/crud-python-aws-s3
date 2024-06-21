@@ -1,5 +1,5 @@
 ﻿[![Latest Version](https://img.shields.io/github/v/release/alexjosesilva/python-aws-s3?include_prereleases)](https://github.com/alexjosesilva/python-aws-s3/releases/tag/1.0)
-[![License](https://img.shields.io/github/license/alexjosesilva/python-aws-s3)]([https://github.com/seu-usuario/seu-repositorio/blob/master/LICENSE](https://github.com/alexjosesilva/pytorch_SimpleNN/blob/master/LICENSE))
+[![License](https://img.shields.io/github/license/alexjosesilva/python-aws-s3)]([https://github.com/seu-usuario/seu-repositorio/blob/master/LICENSE](https://github.com/alexjosesilva/python-aws-s3/blob/master/LICENSE))
 [![codecov](https://codecov.io/gh/alexjosesilva/python-aws-s3/graph/badge.svg?token=GUWHI4VKML)](https://codecov.io/gh/alexjosesilva/python-aws-s3)
 ![Contribuidores](https://img.shields.io/github/contributors/alexjosesilva/python-aws-s3)
 ![Último commit](https://img.shields.io/github/last-commit/alexjosesilva/python-aws-s3)

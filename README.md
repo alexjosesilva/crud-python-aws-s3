@@ -6,8 +6,7 @@
 
 # "app-python-aws-s3" 
 
-O processo de inserção de arquivos, download, listagem, renomear ou deletar esta descrito no repositorio
-procedimentos básicos e de fácil configuração AWS/S3
+Leitura de extratos bancários no S3: Apartir dessa análise dos extratos foram determinados os scores dos clientes no banco
 
 ## requerimentos:
 
